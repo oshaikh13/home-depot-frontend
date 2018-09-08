@@ -15,7 +15,12 @@ class WebcamView extends Component {
   }
 
   render () {
-    
+    const videoConstraints = {
+      width: 720,
+      height: 720,
+      facingMode: "user"
+    };
+
     return (
       <Container fluid={true}>
         <Row>
@@ -24,6 +29,7 @@ class WebcamView extends Component {
               width="100%"
               height="100%"
               screenshotFormat="image/jpeg"
+              videoConstraints={videoConstraints}
               screenshotQuality={1}
               ref={this.setRef}
             />

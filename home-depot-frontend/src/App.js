@@ -144,7 +144,8 @@ class App extends Component {
                   </Button>
                 </Col>
                 <Col style={{ padding: 0 }}>
-                  <h3 className="display-3" style={{textAlign: 'right'}}>{this.state.timeLeft}</h3>
+                  <p style={{textAlign: 'right'}}>Time till image evaluated</p>
+                  <h4 className="display-4" style={{textAlign: 'right'}}>{this.state.timeLeft}</h4>
                 </Col>
               </Row>
               <hr className="my-2" />

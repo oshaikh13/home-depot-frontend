@@ -1,6 +1,6 @@
 # home-depot-hackathon
 
-A piece of garbage written by me and Jerry. this won 5th @ GATech + Home Depot's deep learning hackathon.
+A piece of garbage written by me and [Jerry](https://github.com/qwef). this won 5th @ GATech + Home Depot's deep learning hackathon.
 We're both honestly kinda surprised because this is our **first experience ever with deep learning.**
 
 We ripped off a VGG implementation pretrained on FER2013 and CTK+, turned it into a flask server, and wrote a react frontend.
